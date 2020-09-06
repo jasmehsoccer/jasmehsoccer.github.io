@@ -1,0 +1,32 @@
+body {
+  background-color: Aquamarine;
+}
+button      
+{      
+height:100px;
+ width:150px;
+}
+button2     
+{      
+height:200px;
+ width:150px;
+backround-color:navy;
+}
+
+h3 {
+  color: DarkBlue;
+}
+button{ border:none; cursor:pointer; outline:none; }
+button#playpausebtn{	background:url(https://image.flaticon.com/icons/svg/189/189889.svg) no-repeat;
+	width:80px;
+	height:80px;
+ 
+}
+
+button#mutebtn{	background:url(https://image.flaticon.com/icons/svg/204/204287.svg) no-repeat;
+	width:80px;
+	height:80px;
+}
+
+
+

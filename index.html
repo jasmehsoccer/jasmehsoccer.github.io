@@ -1,7 +1,87 @@
-<!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html>
+</title>
+<script type="text/javascript">
+  var opacity = 0;
+  var intervalID = 0;
+  window.onload = fadeIn;
+
+  function fadeIn() {
+    setInterval(show, 200);
+  }
+
+  function show() {
+    var body = document.getElementById("body");
+    opacity = Number(window.getComputedStyle(body)
+      .getPropertyValue("opacity"));
+    if (opacity < 1) {
+      opacity = opacity + 0.1;
+      body.style.opacity = opacity
+    } else {
+      clearInterval(intervalID);
+    }
+  }
+</script>
+</head>
+
+<body id="body" style="opacity: 0;">
+
+  <h1 style="color: green"></h1>
+
+  </h1>
+  </a></center>
+
+  <h1>
+    <center>
+      <html>Dear Tom Mueller
+
+      </html>
+    </center>
+  </h1>
+  <hr>
+  <p>
+    <h3> My name is Jasmeh Singh and I am a 10 year old who lives in Bay Area. I am really interested in rocketry and would like to ask you a few questions about the Falcon 9.
+      <br>
+      <br>
+      <ul>
+
+        <li>My first question is why SpaceX cannot flip the Falcon 9 in a way that the Dragon capsule is on the top while the fatter part is on the bottom? I asked this question because I noticed that if SpaceX can make the capsule a little more aero dynamic from the top and move the fat part to the bottom there will be less air resistance and it will also provide SpaceX a place to keep more Merlin or Kestrel engines.
+          <br>
+          <br>
+        <li> My second and final question is, how the Falcon 9's boosters can land on a moving boat automatically without falling down?
+          <br>
+
+          If you would like to find out what led me to rocketry then you may press the button below
+    </h3>
+    <button><strong>
+        <a href="https://codepen.io/cwkjasmeh53894/pen/MWywRRM" class="button">What led me to rocketry </a>
+      </strong> </button>
+
+    <div id="footer">
+      <h5><a href="http://www.eleftheriabatsou.com" target="_blank"></a> <a href="https://codepen.io/EleftheriaBatsou" target="_blank"></a> <a href="https://www.youtube.com/channel/UCC-WwYv3DEW7Nkm_IP6VeQQ" target="_blank"> </a></h5>
+    </div> <!-- end footer -->
+
+    </div>
+    <script>
+      function toggleSection(sectionID) {
+        var sa = new Array('home', 'services', 'portfolio', 'contact');
+        for (s in sa) {
+          document.getElementById(sa[s]).style.display = 'none';
+        }
+        var myTarget = document.getElementById(sectionID);
+        myTarget.style.display = 'block';
+      }
+    </script>
+    </head>
+
+    <body>
+      <div align="right" id="pageAudio">
+        <!-- Music -->
+
+        <button id="playpausebtn"></button>
+        <button id="mutebtn"></button>
+
+      </div>
+
+  </p>
+  <h2></h2>
+
+  </p>
